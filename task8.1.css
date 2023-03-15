@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 40px 45px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: arial;
+}
+.row{
+    width: 100%;
+    height: 650px;
+    background-color: #1abc9cec;
+}
+.row img{
+    width: 250px;
+    height: 250px;
+    margin-left: 550px;
+    margin-top: 100px;
+
+}
+.row h1{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+.row1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-top: 20px;
+}
+.row h2{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.row2{
+    width: 100%;
+    height: 200px;
+    
+}
+.row2 h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 50px;
+    color: black;
+    margin-top: 60px;
+}
+.dash{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line1{
+    width: 100px;
+    height: 4px;
+    background-color: black;
+    margin-top: 20px;
+}
+.row3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.col-1{
+    width: 25%;
+    height: 250px;
+    background-color: #dc3545 ;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-left: 150px;
+}
+.col-1 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.col-1:hover{
+    background-color: #1abc9cec;
+}
+.col-1 img:hover{
+    background-color: #1abc9cec;
+}
+.col-2{
+    width: 25%;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(122,189,201);
+
+    
+}
+.col-2 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 50%;
+    
+}
+.col-2:hover{
+    background-color: #1abc9cec;
+}
+.col-2 img:hover{
+    background-color: #1abc9cec;
+}
+.col-3{
+    width: 25%;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: black;
+
+    
+}
+.col-3 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 50%;
+    
+}
+.col-3:hover{
+    background-color: #1abc9cec;
+}
+.col-3 img:hover{
+    background-color: #1abc9cec;
+}
+.row4{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.col-4{
+    width: 25%;
+    height: 250px;
+    background-color: cornflowerblue;
+    margin-left: 150px;
+    border-radius: 10px;
+
+    
+}
+.col-4 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 50%;
+   
+    
+}
+.col-4:hover{
+    background-color: #1abc9cec;
+}
+
+.col-5{
+    width: 25%;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 139);
+
+    
+}
+.col-5 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 50%;
+    
+}
+.col-5:hover{
+    background-color: #1abc9cec;
+}
+.col-5 img:hover{
+    background-color: #1abc9cec;
+}
+.col-6{
+    width: 25%;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: darksalmon;
+
+    
+}
+.col-6 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 50%;
+    
+}
+.col-6:hover{
+    background-color: #1abc9cec;
+}
+.col-6 img:hover{
+    background-color: #1abc9cec;
+}
+.row5{
+    width: 100%;
+    height: 200px;
+    background-color: #1abc9cec;
+    
+}
+.row5 h1{
+    text-align: center;
+    font-family: arial;
+    color: white;
+    font-size: 50px;
+}
+.row51{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line2{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-top: 20px;
+}
+.row6{
+    width: 100%;
+    height: 200px;
+    background-color: #1abc9cec;
+    display: flex;
+}
+.col-7{
+    width: 25%;
+    height: 150px;
+    margin-left: 300px;
+    margin-top: 20px;
+   
+}
+.col-7 p{
+    color: white;
+    font-family: arial;
+    padding: 10px;
+    font-size: 19px;
+
+}
+.col-8{
+    width: 25%;
+    height: 150px;
+    margin-left:100px;
+    margin-top: 20px;
+}
+.col-8 p{
+    color: white;
+    font-family: arial;
+    padding: 10px;
+    font-size: 19px;
+
+}
+.btn{
+    background-color: #1abc9cec;
+    padding-bottom: 90px;
+}
+.btn button{
+    margin-left: 550px;
+    padding: 20px 30px;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    background-color: #1abc9cec;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+button:visited{
+    color: white;
+}
+button:hover{
+    opacity: 0.6;
+    color: black;
+
+}
+.contact{
+    width: 100%;
+    height: 300px;
+}
+.contact h1{
+    text-align: center;
+    font-family: arial;
+    color: black;
+    margin-top: 60px;
+}
+.con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line3{
+    width: 100px;
+    height: 4px;
+    background-color: black;
+    margin-top: 20px;
+}
+.con1{
+    width: 100%;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.full1{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin-top: 40px;
+    
+}
+.con2{
+    width: 100%;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.full2{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin-top: 40px;
+    
+}
+.con3{
+    width: 100%;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.full3{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin-top: 40px;
+    
+}
+.con4{
+    width: 100%;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.full4{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin-top: 40px;
+    
+}
+button{
+    padding: 20px 30px;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.651);
+    color: white;
+    
+}
+button:hover{
+    background-color: yellow;
+}
+.btn1{
+    padding-bottom: 100px;
+}
